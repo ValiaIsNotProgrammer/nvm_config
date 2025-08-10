@@ -19,7 +19,8 @@ return {
           ["l"] = "open",
           ["<CR>"] = "open",
           ["h"] = "close_node",
-          ["<leader>l"] = "focus_preview",
+          ["H"] = "",
+          ["<leader>h"] = "toggle_hidden"
         },
       },
     }
