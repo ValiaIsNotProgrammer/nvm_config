@@ -1,14 +1,13 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
-  lazy = false,
   branch = "v2.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
-    "3rd/image.nvim",
     "s1n7ax/nvim-window-picker"
   },
+  lazy = false,
   cmd = "Neotree",
   config = function()
     require("window-picker").setup {
